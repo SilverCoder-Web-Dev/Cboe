@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const API_USERS = 'http://172.20.10.4:5000/users';
-  const API_TRANSACTIONS = 'http://172.20.10.4:5000/transactions';
-  const API_MESSAGES = 'http://172.20.10.4:5000/messages';
+  const API_USERS = 'http://localhost:10000/users';
+  const API_TRANSACTIONS = 'http://localhost:10000/transactions';
+  const API_MESSAGES = 'http://localhost:10000/messages';
 
   const messageContainer = document.getElementById('message-container');
   const usersTableBody = document.querySelector('#users-table tbody');
