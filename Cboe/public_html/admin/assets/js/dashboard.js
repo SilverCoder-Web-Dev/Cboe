@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const API_USERS = 'http://localhost:10000/users';
-  const API_TRANSACTIONS = 'http://localhost:10000/transactions';
-  const API_MESSAGES = 'http://localhost:10000/messages';
+  const API_USERS = 'https://cboe.onrender.com/users';
+  const API_TRANSACTIONS = 'https://cboe.onrender.com/transactions';
+  const API_MESSAGES = 'https://cboe.onrender.com/messages';
 
   const messageContainer = document.getElementById('message-container');
   const usersTableBody = document.querySelector('#users-table tbody');
