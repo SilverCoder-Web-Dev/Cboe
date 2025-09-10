@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             try {
                 // Check if username or email already exists in db
-                const response = await fetch(`http://172.20.10.4:10000/users?username=${username}&email=${email}`);
+                const response = await fetch(`http://localhost:10000/users?username=${username}&email=${email}`);
                 const existingUsers = await response.json();
 
                 const usernameExists = existingUsers.some(user => user.username === username);
