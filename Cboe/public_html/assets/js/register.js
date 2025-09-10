@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     password // In real-world apps, never store raw passwords!
                 };
 
-                const postRes = await fetch(`http://172.20.10.4:10000/users`, {
+                const postRes = await fetch(`http://localhost:10000/users`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
