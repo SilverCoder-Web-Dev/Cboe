@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // API URLs
-  const API_BASE = "http://localhost:10000";
+  const API_BASE = "https://cboe.onrender.com";
   const API_USERS = `${API_BASE}/users`;
   const API_TRANSACTIONS = `${API_BASE}/transactions`;
 
@@ -419,7 +419,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //   async function fetchUserMessages(userId) {
 //   try {
-//     const res = await fetch(`http://localhost:10000/messages?userId=${userId}`);
+//     const res = await fetch(`https://cboe.onrender.com/messages?userId=${userId}`);
 //     if (!res.ok) throw new Error('Failed to fetch messages');
 //     const messages = await res.json();
 //     displayUserMessages(messages);
